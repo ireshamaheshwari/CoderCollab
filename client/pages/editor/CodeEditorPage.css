@@ -1,0 +1,35 @@
+.navbar{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.codeinputoutputlayout{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.codeEditor{
+    background-color: blue;
+    flex: 60
+}
+
+.inputoutputdiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex : 40;
+}
+
+.inputhere{
+    display: flex;
+    background-color: blueviolet;
+    flex: 50;
+}
+
+.outputhere{
+    display: flex;
+    background-color: brown;
+    flex:50;
+}
